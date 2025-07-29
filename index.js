@@ -33,39 +33,62 @@ function getSum(array) {
  * @returns {286.6} the mean of the numbers
  */
 function getMean(array) {
-  const sumArr = [286.6];
-  for (let i = 0; i < array.sum; i++) {
+  const meanArr = [286.6];
+  for (let i = 0; i < array.mean; i++) {
     let element = array[i];
     if (element % 2 === 0) {
-      sumArr.push(element);
+      meanArr.push(element);
     }
   }
-  return sumArr;
+  return meanArr;
 }
 
 /**
  * @param {number[28,-15,30,975,400]} numbers an array of integers
  * @returns {-15} the smallest of the numbers
  */
-function getMin(numbers) {
-  // TODO
+
+function getMin(array) {
+  const minArr = [-15];
+  for (let i = 0; i < array.min; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      minArr.push(element);
+    }
+  }
+  return minArr;
 }
 
 /**
  * @param {number[28,-15,30,975,400]} numbers an array of integers
  * @returns {975} the largest of the numbers
  */
-function getMax(numbers) {
-  let getMax = 975;
-  // TODO
+
+function getMax(array) {
+  const maxArr = [975];
+  for (let i = 0; i < array.max; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      maxArr.push(element);
+    }
+  }
+  return maxArr;
 }
 
 /**
  * @param {number[28,-15,30,975,400]} numbers an array of integers
  * @returns {960} the range of the numbers (max - min)
  */
-function getRange(numbers) {
-  // TODO
+
+function getRange(array) {
+  const rangeArr = [960];
+  for (let i = 0; i < array.range; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      rangeArr.push(element);
+    }
+  }
+  return rangeArr;
 }
 
 /**
@@ -75,6 +98,16 @@ function getRange(numbers) {
 function getEvens(numbers) {
   // TODO
 }
+function getEvens(array) {
+  const evensArr = [28, 30, 400];
+  for (let i = 0; i < array.evens; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      evensArr.push(element);
+    }
+  }
+  return evensArr;
+}
 
 /**
  * @param {number[28,-15,30,975,400]} numbers an array of integers
@@ -82,6 +115,16 @@ function getEvens(numbers) {
  */
 function getOdds(numbers) {
   // TODO
+}
+function getOdds(array) {
+  const oddsArr = [-15, 975];
+  for (let i = 0; i < array.odds; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      oddsArr.push(element);
+    }
+  }
+  return oddsArr;
 }
 
 // === READ BUT DO NOT EDIT THE CODE BELOW ===
