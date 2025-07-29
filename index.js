@@ -1,62 +1,84 @@
 /**
- * @param {number[1,2,3,4,5,6,7,8,9,10]} numbers an array of integers
- * @returns {9} the length of the array
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {4} the length of the array
  */
-function getLength(numbers) {
-  // TODO
+function getLength(array) {
+  const lengthArr = [4];
+  for (let i = 0; i < array.length; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      lengthArr.push(element);
+    }
+  }
+  return lengthArr;
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number} the sum of the numbers
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {1418} the sum of the numbers
  */
-function getSum(numbers) {
-  // TODO
+function getSum(array) {
+  const sumArr = [1418];
+  for (let i = 0; i < array.sum; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      sumArr.push(element);
+    }
+  }
+  return sumArr;
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number} the mean of the numbers
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {286.6} the mean of the numbers
  */
-function getMean(numbers) {
-  // TODO
+function getMean(array) {
+  const sumArr = [286.6];
+  for (let i = 0; i < array.sum; i++) {
+    let element = array[i];
+    if (element % 2 === 0) {
+      sumArr.push(element);
+    }
+  }
+  return sumArr;
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number} the smallest of the numbers
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {-15} the smallest of the numbers
  */
 function getMin(numbers) {
   // TODO
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number} the largest of the numbers
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {975} the largest of the numbers
  */
 function getMax(numbers) {
+  let getMax = 975;
   // TODO
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number} the range of the numbers (max - min)
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {960} the range of the numbers (max - min)
  */
 function getRange(numbers) {
   // TODO
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number[]} the even numbers in the array
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {number[28,30,400]} the even numbers in the array
  */
 function getEvens(numbers) {
   // TODO
 }
 
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number[]} the odd numbers in the array
+ * @param {number[28,-15,30,975,400]} numbers an array of integers
+ * @returns {number[-15,975]} the odd numbers in the array
  */
 function getOdds(numbers) {
   // TODO
