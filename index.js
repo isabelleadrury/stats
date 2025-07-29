@@ -1,6 +1,6 @@
 /**
- * @param {number[]} numbers an array of integers
- * @returns {number} the length of the array
+ * @param {number[1,2,3,4,5,6,7,8,9,10]} numbers an array of integers
+ * @returns {9} the length of the array
  */
 function getLength(numbers) {
   // TODO
